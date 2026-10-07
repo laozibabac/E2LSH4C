@@ -1,0 +1,160 @@
+seed=4 e2lsh_only=1 estimator=queryStratified with_is=1 T_override=300
+loading D:\Develop\native-l2-e2lsh-chamfer\data\SIFT/base_with_outlier.f32bin (flat f32 stream for e2lsh-only)
+loading D:\Develop\native-l2-e2lsh-chamfer\data\SIFT/query.f32bin
+window_size=500 query_interval=166 |A|=1000001 |B|=10000 dim=128 (flat-A)
+exact=cache hit path=output/sampling_ablation/sift/exact_out/exact_cache.csv entries=57
+omp_threads=1
+E2LSH-only mode: skipping QuadTree and Uniform
+E2LSH K=120 rho=0.0001 n_max=1100000 (formula: K=max(1,ceil(4*ln(8*n_max^2)))) backend=ram
+E2LSH insertA progress 114688/1000001
+E2LSH insertA progress 212992/1000001
+E2LSH insertA progress 311296/1000001
+E2LSH insertA progress 409600/1000001
+E2LSH insertA progress 507904/1000001
+E2LSH insertA progress 606208/1000001
+E2LSH insertA progress 704512/1000001
+E2LSH insertA progress 802816/1000001
+E2LSH insertA progress 901120/1000001
+E2LSH insertA progress 1000001/1000001
+E2LSH A insert done in 53757.4 ms L=40 D=2.19903e+14
+strata invariant OK sumN=1000001 pos=1000001
+Step 664 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21147e+08 strat=3.19541e+08 (-0.00500136) is=3.42819e+08 (0.0674838)
+Step 830 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19172e+08 strat=3.23143e+08 (0.0124432) is=3.24629e+08 (0.0170984)
+Step 996 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.2028e+08 strat=3.1657e+08 (-0.0115843) is=3.58301e+08 (0.118712)
+Step 1162 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20468e+08 strat=3.14816e+08 (-0.017637) is=3.08979e+08 (-0.0358522)
+Step 1328 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.22114e+08 strat=3.28954e+08 (0.0212363) is=3.24791e+08 (0.008313)
+Step 1494 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19682e+08 strat=3.2029e+08 (0.00190185) is=3.13579e+08 (-0.0190888)
+Step 1660 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20633e+08 strat=3.18591e+08 (-0.00636823) is=3.19389e+08 (-0.00387942)
+Step 1826 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.23014e+08 strat=3.24407e+08 (0.00431309) is=2.7649e+08 (-0.14403)
+Step 1992 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.23018e+08 strat=3.29754e+08 (0.0208543) is=3.24887e+08 (0.00578756)
+Step 2158 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21116e+08 strat=3.17344e+08 (-0.0117485) is=3.137e+08 (-0.0230964)
+Step 2324 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19201e+08 strat=3.17172e+08 (-0.00635779) is=3.41805e+08 (0.0708149)
+Step 2490 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20775e+08 strat=3.16723e+08 (-0.0126314) is=3.14365e+08 (-0.0199851)
+Step 2656 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.22251e+08 strat=3.18603e+08 (-0.0113202) is=3.23345e+08 (0.00339461)
+Step 2822 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21702e+08 strat=3.19757e+08 (-0.00604534) is=3.05216e+08 (-0.0512449)
+Step 2988 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.2167e+08 strat=3.18346e+08 (-0.0103335) is=3.14455e+08 (-0.0224299)
+Step 3154 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21689e+08 strat=3.20904e+08 (-0.00244121) is=3.66899e+08 (0.140538)
+Step 3320 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20946e+08 strat=3.14132e+08 (-0.0212309) is=3.35141e+08 (0.044227)
+Step 3486 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19296e+08 strat=3.22474e+08 (0.00995217) is=3.29554e+08 (0.0321242)
+Step 3652 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19129e+08 strat=3.22027e+08 (0.00907847) is=3.22961e+08 (0.0120068)
+Step 3818 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19181e+08 strat=3.26633e+08 (0.0233469) is=3.3744e+08 (0.0572048)
+Step 3984 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.18145e+08 strat=3.17848e+08 (-0.000933357) is=3.23791e+08 (0.0177455)
+Step 4150 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.18606e+08 strat=3.21158e+08 (0.00800889) is=3.07257e+08 (-0.0356199)
+Step 4316 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.1861e+08 strat=3.15431e+08 (-0.00997558) is=3.01236e+08 (-0.0545313)
+Step 4482 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19053e+08 strat=3.26862e+08 (0.0244733) is=3.02384e+08 (-0.0522468)
+Step 4648 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20291e+08 strat=3.13714e+08 (-0.0205344) is=3.23805e+08 (0.0109711)
+Step 4814 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21117e+08 strat=3.21959e+08 (0.00262238) is=3.2921e+08 (0.0252041)
+Step 4980 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.18723e+08 strat=3.19155e+08 (0.00135592) is=3.07664e+08 (-0.0346975)
+Step 5146 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.17604e+08 strat=3.14562e+08 (-0.00957924) is=3.40196e+08 (0.0711309)
+Step 5312 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.1915e+08 strat=3.11717e+08 (-0.0232882) is=3.19774e+08 (0.00195642)
+Step 5478 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20647e+08 strat=3.14938e+08 (-0.0178051) is=3.34763e+08 (0.044022)
+Step 5644 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21955e+08 strat=3.31376e+08 (0.0292612) is=3.13527e+08 (-0.026178)
+Step 5810 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.2075e+08 strat=3.23546e+08 (0.00871705) is=3.03478e+08 (-0.0538491)
+Step 5976 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21587e+08 strat=3.22535e+08 (0.00294898) is=3.34175e+08 (0.0391441)
+Step 6142 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21821e+08 strat=3.28071e+08 (0.0194211) is=3.01857e+08 (-0.0620351)
+Step 6308 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20446e+08 strat=3.16908e+08 (-0.0110391) is=3.24075e+08 (0.0113273)
+Step 6474 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.22557e+08 strat=3.26531e+08 (0.0123192) is=3.34078e+08 (0.0357167)
+Step 6640 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21159e+08 strat=3.24586e+08 (0.0106717) is=3.61299e+08 (0.124984)
+Step 6806 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20831e+08 strat=3.26239e+08 (0.0168582) is=3.37637e+08 (0.0523834)
+Step 6972 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.18739e+08 strat=3.25637e+08 (0.0216418) is=3.05786e+08 (-0.0406357)
+Step 7138 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20015e+08 strat=3.18965e+08 (-0.00327912) is=3.3894e+08 (0.0591382)
+Step 7304 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.22e+08 strat=3.1833e+08 (-0.0113967) is=2.84404e+08 (-0.116758)
+Step 7470 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21457e+08 strat=3.19218e+08 (-0.00696601) is=3.08735e+08 (-0.0395759)
+Step 7636 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20743e+08 strat=3.23423e+08 (0.00835719) is=3.20938e+08 (0.000607051)
+Step 7802 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.1956e+08 strat=3.22501e+08 (0.00920246) is=3.17783e+08 (-0.00556075)
+Step 7968 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19243e+08 strat=3.25269e+08 (0.0188769) is=3.00988e+08 (-0.0571803)
+Step 8134 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19891e+08 strat=3.1535e+08 (-0.0141952) is=3.19311e+08 (-0.00181384)
+Step 8300 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20332e+08 strat=3.18361e+08 (-0.0061504) is=3.45356e+08 (0.0781212)
+Step 8466 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.18576e+08 strat=3.19687e+08 (0.00348668) is=3.20257e+08 (0.00527772)
+Step 8632 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.18869e+08 strat=3.1733e+08 (-0.00482847) is=3.28116e+08 (0.0289984)
+Step 8798 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.19895e+08 strat=3.15708e+08 (-0.013088) is=3.26754e+08 (0.0214427)
+Step 8964 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21954e+08 strat=3.16328e+08 (-0.0174742) is=3.20914e+08 (-0.00323256)
+Step 9130 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21025e+08 strat=3.17175e+08 (-0.0119923) is=3.3429e+08 (0.0413202)
+Step 9296 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20858e+08 strat=3.20394e+08 (-0.00144634) is=3.11389e+08 (-0.0295124)
+Step 9462 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.22078e+08 strat=3.2533e+08 (0.0100984) is=3.35353e+08 (0.041217)
+Step 9628 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.2385e+08 strat=3.21895e+08 (-0.00603845) is=3.34367e+08 (0.0324735)
+Step 9794 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.21881e+08 strat=3.26357e+08 (0.0139057) is=3.11485e+08 (-0.0322985)
+Step 9960 |A|=1000001 |Bwin|=500 T=300 L=40
+  chamfer=3.20103e+08 strat=3.23499e+08 (0.0106108) is=3.15449e+08 (-0.014539)
+
+========== TIMING SUMMARY (ms) ==========
+E2LSH K=120 L_final=40 queries=57 update_ops=10000 mode=e2lsh-only
+wall_ms_total=54717.939
+per_update_ms e2lsh=0.083 quadtree=0.000 uniform=0.000 benchmark=0.000
+--- E2LSH structure ---
+  init_insert_A_ms=53757.437
+  update_ms_total=737.592  update_ms_avg=0.074
+--- E2LSH stratified ---
+  query_ms_total=88.918  query_ms_avg=1.560
+--- E2LSH importance ---
+  query_ms_total=95.250  query_ms_avg=1.671
+--- Optional ---
+  exact_chamfer mode=cache update_ms_total=0.000 update_ms_avg=0.000 query_ms_total=0.055 query_ms_avg=0.001 path=output/sampling_ablation/sift/exact_out/exact_cache.csv
+=========================================
+Done. queries=57 wrote D:\Develop\native-l2-e2lsh-chamfer\output\sampling_ablation\sift\out_seed4\compare_cost_log.csv
+Wrote timing summary to D:\Develop\native-l2-e2lsh-chamfer\output\sampling_ablation\sift\out_seed4\timing_summary.json
+
+========== E2LSH BREAKDOWN (ms) ==========
+insertA total=44950.33 (h0=1429.80 hash=168.08 exact=944.20 map=0.00 coord_io=0.00 posting=0.00 resolve=10359.93 sampler=11993.71 other=20054.62)
+insertB total=400.83 (h0=14.10 resolve=106.57 exact+sampler=277.49 other=2.66)
+deleteB total=331.14 (membership=326.18 exact+sampler=3.10 other=1.87)
+expandTop total=8232.18 count=40
+query total=181.91 (sample=91.50 Da=0.00 NN=90.27 overhead=0.14 io=0.00 reads=0)
+fractions of profiled E2LSH (54096.39 ms): NN=0.17% sample=0.17% Da=0.00% structure=99.66%
+==========================================

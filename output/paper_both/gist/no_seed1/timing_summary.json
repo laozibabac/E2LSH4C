@@ -1,0 +1,70 @@
+{
+  "seed": 1,
+  "K": 98,
+  "L_final": 18,
+  "rho": 0.000100,
+  "n_max": 70000,
+  "e2lsh_only": false,
+  "quadtree_only": false,
+  "dual_dynamic": true,
+  "no_outlier": true,
+  "queries": 57,
+  "T": 500,
+  "window_size": 50000,
+  "query_interval": 16666,
+  "insert_schedule": "proportional",
+  "omp_threads": 1,
+  "nn_kernel": "simd_l2::min_l2_flat",
+  "max_A_run": 1000,
+  "schedule_prefix": "AAAAAAAAAAAAAAAAAAAAAAAA",
+  "nA": 1000000,
+  "nB": 1000,
+  "dim": 960,
+  "update_ops": 1001000,
+  "wall_ms_total": 512240.123100,
+  "quadtree": {
+    "init_insert_A_ms": 330.193400,
+    "update_ms_total": 404885.069500,
+    "update_ms_avg": 0.404481,
+    "query_ms_total": 184.919600,
+    "query_ms_avg": 3.244204
+  },
+  "e2lsh": {
+    "init_insert_A_ms": 0.0,
+    "update_ms_total": 28427.768400,
+    "update_ms_avg": 0.028399,
+    "query_ms_total": 260.264400,
+    "query_ms_avg": 4.566042
+  },
+  "e2lsh_stratified": {
+    "query_ms_total": 260.264400,
+    "query_ms_avg": 4.566042
+  },
+  "uniform": {
+    "query_ms_total": 146.582900,
+    "query_ms_avg": 2.571630
+  },
+  "exact_chamfer": {
+    "mode": "computed",
+    "update_ms_total": 75862.109200,
+    "update_ms_avg": 0.075786,
+    "query_ms_total": 0.001400,
+    "query_ms_avg": 0.000025
+  },
+  "per_update_ms": {
+    "E2LSH": 0.028659,
+    "QuadTree": 0.404995,
+    "Uniform": 0.000146,
+    "Benchmark": 0.075786
+  },
+  "nn_microbench": {
+    "reps": 2048,
+    "e2_ms": 8.837800,
+    "flat_ms": 8.681900,
+    "ratio_slow_over_fast": 1.017957,
+    "e2_nB": 50,
+    "flat_nB": 50,
+    "note": "timed",
+    "status": "OK"
+  }
+}

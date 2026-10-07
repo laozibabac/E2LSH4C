@@ -1,0 +1,117 @@
+{
+  "seed": 4,
+  "K": 120,
+  "L_final": 24,
+  "rho": 0.000100,
+  "n_max": 1100000,
+  "e2lsh_only": true,
+  "queries": 57,
+  "T": 300,
+  "window_size": 500,
+  "query_interval": 166,
+  "nA": 1000000,
+  "nB": 10000,
+  "dim": 128,
+  "update_ops": 10000,
+  "wall_ms_total": 46671.987900,
+  "omp_threads": 1,
+  "nn_kernel": "simd_l2::min_l2_flat",
+  "quadtree_only": false,
+  "storage_dir": "",
+  "storage_backend": "ram",
+  "primary_estimator": "queryStratified",
+  "e2lsh": {
+    "init_insert_A_ms": 45499.391700,
+    "update_ms_total": 754.646200,
+    "update_ms_avg": 0.075465,
+    "query_ms_total": 193.329600,
+    "query_ms_avg": 3.391747
+  },
+  "e2lsh_stratified": {
+    "query_ms_total": 193.329600,
+    "query_ms_avg": 3.391747,
+    "fallback_weight": "N_fb * 2 * Delta_L (docs)"
+  },
+  "with_is": true,
+  "e2lsh_is": {
+    "query_ms_total": 189.814100,
+    "query_ms_avg": 3.330072
+  },
+  "exact_chamfer": {
+    "mode": "cache",
+    "cache_path": "output/sampling_ablation/sift/exact_no/exact_cache.csv",
+    "update_ms_total": 0.000000,
+    "update_ms_avg": 0.000000,
+    "query_ms_total": 0.042100,
+    "query_ms_avg": 0.000739
+  },
+  "per_update_ms": {
+    "E2LSH": 0.094798
+  },
+  "nn_microbench": {
+    "reps": 0,
+    "e2_ms": 0.000000,
+    "flat_ms": 0.000000,
+    "ratio_slow_over_fast": 1.000000,
+    "e2_nB": 0,
+    "flat_nB": 0,
+    "note": "",
+    "status": "SKIP"
+  },
+  "e2lsh_breakdown": {
+    "insertA": {
+      "count": 1000000,
+      "h0_ms": 1419.604300,
+      "hash_ms": 171.004400,
+      "exact_ms": 931.359600,
+      "map_ms": 0.000000,
+      "coord_io_ms": 0.000000,
+      "posting_ms": 0.000000,
+      "resolveLayerPath_ms": 10331.512000,
+      "sampler_ms": 11972.399600,
+      "other_ms": 20088.442700,
+      "total_ms": 44914.322600,
+      "avg_ms": 0.044914
+    },
+    "insertB": {
+      "count": 10000,
+      "h0_ms": 14.494600,
+      "resolveLayerPath_ms": 109.755600,
+      "exact_sampler_ms": 283.710600,
+      "other_ms": 2.263800,
+      "total_ms": 410.224600,
+      "avg_ms": 0.041022
+    },
+    "deleteB": {
+      "count": 9500,
+      "membership_ms": 333.620500,
+      "exact_sampler_ms": 3.381800,
+      "other_ms": 1.897400,
+      "total_ms": 338.899700,
+      "avg_ms": 0.035674
+    },
+    "expandTop": {
+      "count": 24,
+      "total_ms": 0.349800,
+      "avg_ms": 0.014575
+    },
+    "query": {
+      "calls": 114,
+      "samples": 34200,
+      "sample_fenwick_ms": 189.535500,
+      "recover_Da_ms": 0.000000,
+      "exact_NN_ms": 189.722200,
+      "overhead_ms": 0.139700,
+      "total_ms": 379.397400,
+      "avg_per_call_ms": 3.328047,
+      "pct_sample": 49.956984,
+      "pct_Da": 0.000000,
+      "pct_NN": 50.006194,
+      "pct_overhead": 0.036822,
+      "io_ms": 0.000000,
+      "io_reads": 0,
+      "io_writes": 0,
+      "io_bytes_read": 0
+    }
+  }
+}

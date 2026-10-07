@@ -1,0 +1,140 @@
+seed=5 no_outlier=1 dual_dynamic=1 estimator=queryStratified T_override=500
+loading D:\Develop\native-l2-e2lsh-chamfer\data\GIST_1M/base.f32bin (flat f32)
+loading D:\Develop\native-l2-e2lsh-chamfer\data\GIST_1M/query.f32bin
+window_size=50000 query_interval=16666 |A|=1000000 |B|=1000 dim=960 (flat-A)
+omp_threads=1
+dual-dynamic schedule=proportional |A|=1000000 |B|=1000 window=50000 query_interval=16666 (flat-A)
+14.2725 0.0001
+diameter=14.2725 aspect=142725 depth=18
+E2LSH K=98 rho=0.0001 n_max=70000
+qt_insert_A i=0 nodes=1 multis=0
+Step 66664 |Awin|=49950 |Bwin|=50 T=500
+NN_MICROBENCH reps=2048 e2_ms=8.7693 flat_ms=8.5999 ratio_slow_over_fast=1.0197 e2_nB=50 flat_nB=50 e2_align=0 flat_align=0 note=timed status=OK sink=13505.6
+  chamfer=70977.6 qt=68906.6 e2=71120.2 uni=71232.2
+Step 83330 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=72118.4 qt=72145.3 e2=73254.4 uni=72378.3
+Step 99996 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=71668.1 qt=70168.5 e2=71804.5 uni=71077.1
+Step 116662 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=71569.8 qt=73486.8 e2=71528.3 uni=70920.9
+Step 133328 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70812 qt=71519.7 e2=70633.6 uni=71678.2
+Step 149994 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70761 qt=70294 e2=71077.7 uni=70215.6
+Step 166660 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69264.1 qt=71759.1 e2=66554.3 uni=69026.7
+Step 183326 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69856.7 qt=68244.5 e2=69312.4 uni=71253.2
+Step 199992 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69568.2 qt=69424.2 e2=70563.4 uni=70495.1
+qt_insert_A i=200000 nodes=3198028 multis=25298
+Step 216658 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69655.4 qt=70446.8 e2=69525.5 uni=69798.8
+Step 233324 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69691.5 qt=66962.5 e2=70278.7 uni=69523.1
+Step 249990 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=72005.3 qt=72734 e2=73062.6 uni=71353.7
+Step 266656 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=71943.7 qt=70617.3 e2=71306.6 uni=72130.9
+Step 283322 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68797.5 qt=69254.4 e2=67466.4 uni=69529.2
+Step 299988 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69038.2 qt=69190.9 e2=67937.1 uni=69399.9
+Step 316654 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69482.3 qt=70011.7 e2=69400.1 uni=69934.2
+Step 333320 |Awin|=49951 |Bwin|=49 T=500
+  chamfer=71260 qt=72628.4 e2=70716.1 uni=71703.4
+Step 349986 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70324.2 qt=69285.5 e2=70401.4 uni=70141.5
+Step 366652 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69582.6 qt=69072.3 e2=70880.3 uni=69002
+Step 383318 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69819.2 qt=69715.9 e2=71078.8 uni=68320.9
+Step 399984 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69372.6 qt=70762.1 e2=68623.4 uni=70239.9
+qt_insert_A i=400000 nodes=6354490 multis=47323
+Step 416650 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70010.8 qt=70068.5 e2=70861.1 uni=70206.8
+Step 433316 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70067.6 qt=70491 e2=69521.9 uni=67921.5
+Step 449982 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=71358.5 qt=68700.6 e2=70442.2 uni=70934.5
+Step 466648 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69860.2 qt=68811.4 e2=69494.7 uni=70197
+Step 483314 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69740.2 qt=72521.6 e2=69851.1 uni=69607.6
+Step 499980 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69015.6 qt=67638.3 e2=69338.6 uni=67937.5
+Step 516646 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69575.7 qt=69317.8 e2=69026.8 uni=69182.1
+Step 533312 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69617.3 qt=68393.6 e2=69192.6 uni=69859.1
+Step 549978 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68457 qt=67637.8 e2=67819.7 uni=68124.2
+Step 566644 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=67886.2 qt=69766.4 e2=66911.8 uni=67272.9
+Step 583310 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=67780 qt=68202.8 e2=66627 uni=68660.6
+Step 599976 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68266.8 qt=70390.8 e2=66570.4 uni=69292.2
+qt_insert_A i=600000 nodes=9488468 multis=68839
+Step 616642 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69137.5 qt=68299.6 e2=69653.9 uni=70369.1
+Step 633308 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70907.6 qt=73726.8 e2=69881.9 uni=70751.3
+Step 649974 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69892.3 qt=70698.8 e2=69903.1 uni=69280.5
+Step 666640 |Awin|=49951 |Bwin|=49 T=500
+  chamfer=70839.4 qt=70487 e2=69960.6 uni=70720.8
+Step 683306 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69928.8 qt=69755.3 e2=69909.9 uni=69988.5
+Step 699972 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69557.6 qt=69371.3 e2=69802.9 uni=67767
+Step 716638 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69211.9 qt=68847.7 e2=71130.3 uni=69885.1
+Step 733304 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69031.8 qt=69449.6 e2=69535.1 uni=68756.6
+Step 749970 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68976.8 qt=68130.3 e2=71254.6 uni=70125.1
+Step 766636 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68866 qt=69584.4 e2=68654.9 uni=68459.6
+Step 783302 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68749.9 qt=67826.6 e2=68027.7 uni=69243.3
+Step 799968 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68933.9 qt=70215.6 e2=69740.6 uni=68489.7
+qt_insert_A i=800000 nodes=12604706 multis=89761
+Step 816634 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=68838.9 qt=69191 e2=67294.8 uni=68336
+Step 833300 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69765.3 qt=69351.7 e2=69776.4 uni=69504.1
+Step 849966 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70501.1 qt=68693 e2=70316.9 uni=69180.2
+Step 866632 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70148.4 qt=68898.4 e2=69798.9 uni=68975.7
+Step 883298 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69625.7 qt=69077.1 e2=68963.9 uni=70257.6
+Step 899964 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70817.8 qt=70146.2 e2=69161 uni=70454.3
+Step 916630 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=71054 qt=70463 e2=70793.1 uni=70282.8
+Step 933296 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=71329.8 qt=71049.9 e2=72331.3 uni=69961.3
+Step 949962 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=70449.4 qt=72859 e2=69719.7 uni=69802.1
+Step 966628 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69250.9 qt=68281.5 e2=70363.6 uni=68892.7
+Step 983294 |Awin|=49950 |Bwin|=50 T=500
+  chamfer=69325.9 qt=70995.4 e2=70247 uni=69156
+Step 999960 |Awin|=49951 |Bwin|=49 T=500
+  chamfer=71550 qt=71473.2 e2=71710 uni=71455.5
+schedule_done nA=1000000 ai=1000000 nB=1000 bi=1000 max_A_run=1000 prefix=AAAAAAAAAAAAAAAAAAAAAAAA
+
+========== TIMING SUMMARY (ms) dual-dynamic ==========
+wall_ms_total=528254.125 queries=57 update_ops=1001000
+per_update_ms e2lsh=0.028 quadtree=0.408 uniform=0.000 benchmark=0.089
+QuadTree update_ms_avg=0.407 query_ms_avg=3.259
+E2LSH update_ms_avg=0.028 query_ms_avg=4.377
+exact update_ms_avg=0.089
+=====================================================
+Wrote timing summary to D:\Develop\native-l2-e2lsh-chamfer\output\paper_both\gist\no_seed5\timing_summary.json
+Done. queries=57 wrote D:\Develop\native-l2-e2lsh-chamfer\output\paper_both\gist\no_seed5\compare_cost_log.csv

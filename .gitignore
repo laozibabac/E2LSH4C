@@ -1,0 +1,33 @@
+# datasets are downloaded separately; see README.md
+/data/
+/downloads/
+
+# build artifacts
+/build/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CMakeUserPresets.json
+.cache/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+
+__pycache__/
+*.pyc
+
+.DS_Store
+__MACOSX/
+*.swp
+*~
+.idea/
+.vs/
+*.user
+*.orig

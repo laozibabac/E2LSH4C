@@ -1,0 +1,117 @@
+{
+  "seed": 1,
+  "K": 119,
+  "L_final": 32,
+  "rho": 0.000100,
+  "n_max": 1001075,
+  "e2lsh_only": true,
+  "queries": 56,
+  "T": 300,
+  "window_size": 50,
+  "query_interval": 17,
+  "nA": 1000001,
+  "nB": 1000,
+  "dim": 960,
+  "update_ops": 1000,
+  "wall_ms_total": 38887.565700,
+  "omp_threads": 1,
+  "nn_kernel": "simd_l2::min_l2_flat",
+  "quadtree_only": false,
+  "storage_dir": "D:\\Develop\\native-l2-e2lsh-chamfer\\output\\sampling_ablation\\gist\\out_seed1\\store",
+  "storage_backend": "external",
+  "primary_estimator": "queryStratified",
+  "e2lsh": {
+    "init_insert_A_ms": 37346.690900,
+    "update_ms_total": 267.000800,
+    "update_ms_avg": 0.267001,
+    "query_ms_total": 664.460100,
+    "query_ms_avg": 11.865359
+  },
+  "e2lsh_stratified": {
+    "query_ms_total": 664.460100,
+    "query_ms_avg": 11.865359,
+    "fallback_weight": "N_fb * 2 * Delta_L (docs)"
+  },
+  "with_is": true,
+  "e2lsh_is": {
+    "query_ms_total": 560.200400,
+    "query_ms_avg": 10.003579
+  },
+  "exact_chamfer": {
+    "mode": "cache",
+    "cache_path": "output/sampling_ablation/gist/exact_out/exact_cache.csv",
+    "update_ms_total": 0.000000,
+    "update_ms_avg": 0.000000,
+    "query_ms_total": 0.043900,
+    "query_ms_avg": 0.000784
+  },
+  "per_update_ms": {
+    "E2LSH": 0.931461
+  },
+  "nn_microbench": {
+    "reps": 0,
+    "e2_ms": 0.000000,
+    "flat_ms": 0.000000,
+    "ratio_slow_over_fast": 1.000000,
+    "e2_nB": 0,
+    "flat_nB": 0,
+    "note": "",
+    "status": "SKIP"
+  },
+  "e2lsh_breakdown": {
+    "insertA": {
+      "count": 1000001,
+      "h0_ms": 15391.367100,
+      "hash_ms": 825.468300,
+      "exact_ms": 0.000000,
+      "map_ms": 0.000000,
+      "coord_io_ms": 7890.592800,
+      "posting_ms": 1167.638000,
+      "resolveLayerPath_ms": 3480.679500,
+      "sampler_ms": 6.572900,
+      "other_ms": 506.473000,
+      "total_ms": 29268.791600,
+      "avg_ms": 0.029269
+    },
+    "insertB": {
+      "count": 1000,
+      "h0_ms": 20.697100,
+      "resolveLayerPath_ms": 38.697600,
+      "exact_sampler_ms": 105.265000,
+      "other_ms": 0.934900,
+      "total_ms": 165.594600,
+      "avg_ms": 0.165595
+    },
+    "deleteB": {
+      "count": 950,
+      "membership_ms": 100.240500,
+      "exact_sampler_ms": 0.136800,
+      "other_ms": 0.335600,
+      "total_ms": 100.712900,
+      "avg_ms": 0.106014
+    },
+    "expandTop": {
+      "count": 32,
+      "total_ms": 0.446400,
+      "avg_ms": 0.013950
+    },
+    "query": {
+      "calls": 112,
+      "samples": 28529,
+      "sample_fenwick_ms": 346.394700,
+      "recover_Da_ms": 0.000000,
+      "exact_NN_ms": 110.605700,
+      "overhead_ms": 0.095100,
+      "total_ms": 1185.658800,
+      "avg_per_call_ms": 10.586239,
+      "pct_sample": 29.215378,
+      "pct_Da": 0.000000,
+      "pct_NN": 9.328628,
+      "pct_overhead": 0.008021,
+      "io_ms": 728.563300,
+      "io_reads": 46289,
+      "io_writes": 114,
+      "io_bytes_read": 191975424
+    }
+  }
+}

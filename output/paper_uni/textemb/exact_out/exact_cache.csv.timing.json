@@ -1,0 +1,23 @@
+{
+  "nA": 1881,
+  "nB": 1178,
+  "dim": 300,
+  "window_size": 100,
+  "query_interval": 20,
+  "a_name": "base_with_outlier.f32bin",
+  "omp_threads": 1,
+  "nn_kernel": "squared_l2_f32",
+  "update_ops": 1178,
+  "queries": 54,
+  "wall_ms_total": 161.050200,
+  "exact_chamfer": {
+    "mode": "computed",
+    "update_ms_total": 159.720300,
+    "update_ms_avg": 0.135586,
+    "query_ms_total": 0.001300,
+    "query_ms_avg": 0.000024
+  },
+  "per_update_ms": {
+    "Benchmark": 0.135587
+  }
+}

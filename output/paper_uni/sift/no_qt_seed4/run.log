@@ -1,0 +1,152 @@
+seed=4 quadtree_only=1 no_outlier=1 estimator=queryStratified T_override=300
+loading D:\Develop\native-l2-e2lsh-chamfer\data\SIFT/base.f32bin
+loading D:\Develop\native-l2-e2lsh-chamfer\data\SIFT/query.f32bin
+window_size=500 query_interval=166 |A|=1000000 |B|=10000 dim=128
+exact=cache hit path=D:\Develop\native-l2-e2lsh-chamfer\output\paper_uni\sift\exact_no\exact_cache.csv entries=57
+omp_threads=1
+1388.68 0.0001
+diameter=1388.68 aspect=1.38868e+07 depth=24
+QuadTree A insert done in 37954.2 ms
+QuadTree-only mode: skipping E2LSH insertA
+Step 664 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86078e+08 qt=2.76404e+08 (-0.0338163) uni=2.88717e+08 (0.0092253)
+Step 830 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84103e+08 qt=2.91678e+08 (0.0266634) uni=2.87423e+08 (0.0116855)
+Step 996 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85211e+08 qt=2.77639e+08 (-0.0265477) uni=2.87091e+08 (0.00659085)
+Step 1162 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85399e+08 qt=2.82843e+08 (-0.00895484) uni=2.84188e+08 (-0.00424445)
+Step 1328 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.87045e+08 qt=2.85651e+08 (-0.00485611) uni=2.9021e+08 (0.0110267)
+Step 1494 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84613e+08 qt=2.84403e+08 (-0.000735989) uni=2.79426e+08 (-0.018224)
+Step 1660 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85564e+08 qt=2.88184e+08 (0.0091744) uni=2.84138e+08 (-0.00499235)
+Step 1826 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.87945e+08 qt=2.867e+08 (-0.00432428) uni=2.87233e+08 (-0.00247316)
+Step 1992 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.87949e+08 qt=2.90167e+08 (0.00770332) uni=2.91701e+08 (0.0130321)
+Step 2158 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86047e+08 qt=2.91986e+08 (0.0207623) uni=2.82345e+08 (-0.0129416)
+Step 2324 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84132e+08 qt=2.6178e+08 (-0.0786695) uni=2.87508e+08 (0.0118798)
+Step 2490 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85706e+08 qt=2.96105e+08 (0.0363981) uni=2.85028e+08 (-0.0023742)
+Step 2656 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.87182e+08 qt=2.84131e+08 (-0.0106234) uni=2.8807e+08 (0.00309073)
+Step 2822 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86633e+08 qt=2.97696e+08 (0.0385952) uni=2.93041e+08 (0.0223568)
+Step 2988 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86601e+08 qt=2.87977e+08 (0.00480019) uni=2.85694e+08 (-0.00316405)
+Step 3154 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.8662e+08 qt=3.01568e+08 (0.0521524) uni=2.85492e+08 (-0.0039355)
+Step 3320 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85877e+08 qt=2.91962e+08 (0.0212852) uni=2.82486e+08 (-0.0118632)
+Step 3486 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84227e+08 qt=2.68171e+08 (-0.0564903) uni=2.86803e+08 (0.00906338)
+Step 3652 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.8406e+08 qt=2.83414e+08 (-0.00227513) uni=2.8039e+08 (-0.0129206)
+Step 3818 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84112e+08 qt=2.73185e+08 (-0.0384624) uni=2.85952e+08 (0.00647326)
+Step 3984 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.83076e+08 qt=2.83048e+08 (-9.93659e-05) uni=2.80485e+08 (-0.00915153)
+Step 4150 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.83537e+08 qt=2.80855e+08 (-0.00945878) uni=2.86084e+08 (0.00898162)
+Step 4316 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.83541e+08 qt=2.94359e+08 (0.0381525) uni=2.81414e+08 (-0.00750024)
+Step 4482 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.83984e+08 qt=3.04092e+08 (0.070806) uni=2.88349e+08 (0.015369)
+Step 4648 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85222e+08 qt=2.87413e+08 (0.00768259) uni=2.8706e+08 (0.00644621)
+Step 4814 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86048e+08 qt=2.7336e+08 (-0.0443548) uni=2.85302e+08 (-0.00260595)
+Step 4980 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.83654e+08 qt=2.86885e+08 (0.0113915) uni=2.87447e+08 (0.0133741)
+Step 5146 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.82535e+08 qt=2.88704e+08 (0.0218329) uni=2.84866e+08 (0.00825142)
+Step 5312 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84081e+08 qt=2.78782e+08 (-0.0186513) uni=2.86842e+08 (0.00972137)
+Step 5478 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85578e+08 qt=2.8525e+08 (-0.00115094) uni=2.88624e+08 (0.0106638)
+Step 5644 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86886e+08 qt=2.85819e+08 (-0.00371967) uni=2.87773e+08 (0.0030928)
+Step 5810 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85681e+08 qt=2.94393e+08 (0.0304965) uni=2.88499e+08 (0.00986596)
+Step 5976 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86518e+08 qt=2.8647e+08 (-0.000166293) uni=2.86201e+08 (-0.00110796)
+Step 6142 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86752e+08 qt=2.7898e+08 (-0.0271048) uni=2.92149e+08 (0.0188216)
+Step 6308 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85377e+08 qt=2.97952e+08 (0.0440653) uni=2.84349e+08 (-0.00359899)
+Step 6474 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.87488e+08 qt=2.82004e+08 (-0.0190753) uni=2.91899e+08 (0.0153421)
+Step 6640 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.8609e+08 qt=2.91565e+08 (0.0191355) uni=2.94135e+08 (0.0281213)
+Step 6806 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85762e+08 qt=3.01282e+08 (0.0543131) uni=2.85954e+08 (0.000674444)
+Step 6972 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.83669e+08 qt=2.86163e+08 (0.00878967) uni=2.86259e+08 (0.00912912)
+Step 7138 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84946e+08 qt=2.94671e+08 (0.0341291) uni=2.80441e+08 (-0.0158096)
+Step 7304 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86931e+08 qt=2.8641e+08 (-0.00181458) uni=2.84702e+08 (-0.0077667)
+Step 7470 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86388e+08 qt=2.82392e+08 (-0.0139549) uni=2.89074e+08 (0.00937863)
+Step 7636 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85674e+08 qt=2.86327e+08 (0.00228683) uni=2.83422e+08 (-0.00788157)
+Step 7802 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84491e+08 qt=2.91562e+08 (0.0248556) uni=2.83815e+08 (-0.00237622)
+Step 7968 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84174e+08 qt=2.96615e+08 (0.0437808) uni=2.87747e+08 (0.0125753)
+Step 8134 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84822e+08 qt=2.85046e+08 (0.000787007) uni=2.86421e+08 (0.00561197)
+Step 8300 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85263e+08 qt=2.73963e+08 (-0.0396123) uni=2.82455e+08 (-0.00984289)
+Step 8466 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.83507e+08 qt=2.90633e+08 (0.0251344) uni=2.83244e+08 (-0.00092922)
+Step 8632 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.838e+08 qt=2.84841e+08 (0.00366569) uni=2.87841e+08 (0.0142361)
+Step 8798 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.84825e+08 qt=2.92695e+08 (0.0276296) uni=2.85873e+08 (0.00367742)
+Step 8964 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86885e+08 qt=2.93578e+08 (0.0233281) uni=2.8535e+08 (-0.00535)
+Step 9130 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85956e+08 qt=2.87758e+08 (0.00630262) uni=2.87974e+08 (0.00705853)
+Step 9296 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85789e+08 qt=2.84261e+08 (-0.00534925) uni=2.85524e+08 (-0.000929054)
+Step 9462 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.87009e+08 qt=2.94238e+08 (0.0251888) uni=2.90692e+08 (0.0128339)
+Step 9628 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.88781e+08 qt=3.03041e+08 (0.0493805) uni=2.89841e+08 (0.00367016)
+Step 9794 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.86812e+08 qt=2.9135e+08 (0.0158208) uni=2.89472e+08 (0.00927354)
+Step 9960 |A|=1000000 |Bwin|=500 T=300
+  chamfer=2.85034e+08 qt=2.97226e+08 (0.0427752) uni=2.82476e+08 (-0.0089738)
+
+========== TIMING SUMMARY (ms) ==========
+E2LSH K=25 L_final=0 queries=57 update_ops=10000 mode=quadtree-only
+wall_ms_total=45153.075
+per_update_ms e2lsh=0.000 quadtree=0.162 uniform=0.035 benchmark=0.000
+--- QuadTree ---
+  init_insert_A_ms=37954.160
+  update_ms_total=927.193  update_ms_avg=0.093
+  query_ms_total=690.769  query_ms_avg=12.119
+--- E2LSH structure ---
+  init_insert_A_ms=0.000
+  update_ms_total=0.000  update_ms_avg=0.000
+--- E2LSH stratified ---
+  query_ms_total=0.000  query_ms_avg=0.000
+--- Optional ---
+  uniform_query_ms_total=352.570  uniform_query_ms_avg=6.185
+  exact_chamfer mode=cache update_ms_total=0.000 update_ms_avg=0.000 query_ms_total=0.050 query_ms_avg=0.001 path=D:\Develop\native-l2-e2lsh-chamfer\output\paper_uni\sift\exact_no\exact_cache.csv
+=========================================
+Done. queries=57 wrote D:\Develop\native-l2-e2lsh-chamfer\output\paper_uni\sift\no_qt_seed4\compare_cost_log.csv
+Wrote timing summary to D:\Develop\native-l2-e2lsh-chamfer\output\paper_uni\sift\no_qt_seed4\timing_summary.json
+
+========== E2LSH BREAKDOWN (ms) ==========
+insertA total=0.00 (h0=0.00 hash=0.00 exact=0.00 map=0.00 coord_io=0.00 posting=0.00 resolve=0.00 sampler=0.00 other=0.00)
+insertB total=0.00 (h0=0.00 resolve=0.00 exact+sampler=0.00 other=0.00)
+deleteB total=0.00 (membership=0.00 exact+sampler=0.00 other=0.00)
+expandTop total=0.00 count=0
+query total=0.00 (sample=0.00 Da=0.00 NN=0.00 overhead=0.00 io=0.00 reads=0)
+==========================================

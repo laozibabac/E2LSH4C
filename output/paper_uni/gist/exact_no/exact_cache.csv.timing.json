@@ -1,0 +1,13 @@
+{
+  "nA": 1000000,
+  "nB": 1000,
+  "dim": 960,
+  "window_size": 50,
+  "query_interval": 26,
+  "a_name": "base.f32bin",
+  "omp_threads": 1,
+  "nn_kernel": "squared_l2_f32",
+  "per_update_ms": {
+    "Benchmark": 330.87128
+  }
+}

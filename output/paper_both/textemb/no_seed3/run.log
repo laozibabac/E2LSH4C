@@ -1,0 +1,177 @@
+seed=3 no_outlier=1 dual_dynamic=1 estimator=queryStratified T_override=100
+loading D:\Develop\native-l2-e2lsh-chamfer\data\TextEmbedding/base.f32bin
+loading D:\Develop\native-l2-e2lsh-chamfer\data\TextEmbedding/query.f32bin
+window_size=1500 query_interval=20 |A|=1880 |B|=1178 dim=300
+omp_threads=1
+dual-dynamic schedule=proportional |A|=1880 |B|=1178 window=1500 query_interval=20
+17.8444 0.0001
+diameter=17.8444 aspect=178444 depth=18
+E2LSH K=98 rho=0.0001 n_max=70000
+Step 1500 |Awin|=922 |Bwin|=578 T=100
+NN_MICROBENCH reps=512 e2_ms=11.5875 flat_ms=11.5444 ratio_slow_over_fast=1.00373 e2_nB=578 flat_nB=578 e2_align=0 flat_align=0 note=timed status=OK sink=3314.67
+  chamfer=1608.72 qt=1603.63 e2=1548.77 uni=2010.97
+Step 1520 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1634.98 qt=1584.3 e2=1578.45 uni=1274.38
+Step 1540 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1634.09 qt=1698.15 e2=1637.54 uni=1723.46
+Step 1560 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1661.61 qt=1660.77 e2=1657.58 uni=1588.96
+Step 1580 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1657.09 qt=1654.98 e2=1624.19 uni=1581.07
+Step 1600 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1659.2 qt=1715.77 e2=1609.59 uni=1536.02
+Step 1620 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1663.62 qt=1707.04 e2=1693.71 uni=1544.92
+Step 1640 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1655.86 qt=1715.53 e2=1689.68 uni=1926.24
+Step 1660 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1661 qt=1566.32 e2=1696.28 uni=1706.54
+Step 1680 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1667.1 qt=1718.35 e2=1671.55 uni=1688.99
+Step 1700 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1666.12 qt=1721.06 e2=1671.09 uni=1550.92
+Step 1720 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1686.21 qt=1828.14 e2=1666.26 uni=1567.41
+Step 1740 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1687.17 qt=1571.69 e2=1598.54 uni=1618.27
+Step 1760 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1677.94 qt=1662.32 e2=1694.97 uni=1641.3
+Step 1780 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1677.68 qt=1679.03 e2=1626.85 uni=1600.23
+Step 1800 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1663.53 qt=1623.52 e2=1740.85 uni=1663.49
+Step 1820 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1661.9 qt=1610.4 e2=1648.61 uni=1680.71
+Step 1840 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1676.5 qt=1821.31 e2=1703.96 uni=1582.45
+Step 1860 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1693.49 qt=1603.5 e2=1701.38 uni=1624.03
+Step 1880 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1683.1 qt=1640.78 e2=1666.67 uni=1766.63
+Step 1900 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1676.71 qt=1621.58 e2=1685.72 uni=1739.87
+Step 1920 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1678.59 qt=1730.45 e2=1659.98 uni=1687.62
+Step 1940 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1680.7 qt=1707.71 e2=1690.24 uni=1649.66
+Step 1960 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1679.4 qt=1754.97 e2=1704.09 uni=1431.63
+Step 1980 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1728.44 qt=1689.08 e2=1713.46 uni=1821.02
+Step 2000 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1718.72 qt=1687.26 e2=1657.1 uni=1578.47
+Step 2020 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1728.81 qt=1712.21 e2=1780.27 uni=1947.41
+Step 2040 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1702.91 qt=1613.46 e2=1732.4 uni=1690.28
+Step 2060 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1708.03 qt=1599.91 e2=1683.77 uni=1890.92
+Step 2080 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1693.33 qt=1789.24 e2=1660.04 uni=1679.79
+Step 2100 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1689.16 qt=1660.7 e2=1674.08 uni=1973.15
+Step 2120 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1678.9 qt=1623.86 e2=1653.65 uni=1663.75
+Step 2140 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1662.04 qt=1643.24 e2=1673.85 uni=1486.77
+Step 2160 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1619.04 qt=1638.93 e2=1634.81 uni=1523.45
+Step 2180 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1599.39 qt=1522.7 e2=1635.76 uni=1559.4
+Step 2200 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1571.05 qt=1624.61 e2=1560.33 uni=1773.82
+Step 2220 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1564.83 qt=1501.24 e2=1623.89 uni=1363.99
+Step 2240 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1592.14 qt=1624.37 e2=1577.34 uni=1692.69
+Step 2260 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1592.87 qt=1663.97 e2=1552.29 uni=1688.9
+Step 2280 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1608.83 qt=1450.04 e2=1641.93 uni=1665.16
+Step 2300 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1612.8 qt=1637.82 e2=1654.64 uni=1533.19
+Step 2320 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1614.67 qt=1629.74 e2=1580.09 uni=1638.24
+Step 2340 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1605.8 qt=1683.36 e2=1612.15 uni=1715.55
+Step 2360 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1589.73 qt=1589.33 e2=1532.1 uni=1845.18
+Step 2380 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1579.09 qt=1602.37 e2=1536.28 uni=1457.01
+Step 2400 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1577.79 qt=1569.41 e2=1591.57 uni=1615.99
+Step 2420 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1577.51 qt=1527.5 e2=1603.58 uni=1489.15
+Step 2440 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1589.62 qt=1578.75 e2=1609.06 uni=1306.1
+Step 2460 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1576.71 qt=1688.26 e2=1575.6 uni=1623.65
+Step 2480 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1581.54 qt=1498.42 e2=1553.87 uni=1618.45
+Step 2500 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1566.78 qt=1562.1 e2=1489.78 uni=1569.65
+Step 2520 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1547.17 qt=1550.16 e2=1516.88 uni=1576.02
+Step 2540 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1549.69 qt=1504.61 e2=1561.21 uni=1700.17
+Step 2560 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1556.68 qt=1615.55 e2=1562.46 uni=1515.14
+Step 2580 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1558.27 qt=1627.02 e2=1518.11 uni=1700.9
+Step 2600 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1564.13 qt=1610.93 e2=1549.32 uni=1358.41
+Step 2620 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1563.57 qt=1465.29 e2=1553.65 uni=1728.77
+Step 2640 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1552.13 qt=1660.8 e2=1530.71 uni=1432.14
+Step 2660 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1540.18 qt=1504.94 e2=1460.91 uni=1376.66
+Step 2680 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1551.2 qt=1702.19 e2=1536.37 uni=1369.28
+Step 2700 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1540.13 qt=1570.93 e2=1527.26 uni=1510.46
+Step 2720 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1538.82 qt=1513.5 e2=1526.75 uni=1308.96
+Step 2740 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1524.84 qt=1584.78 e2=1510.15 uni=1715.89
+Step 2760 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1551.98 qt=1503.7 e2=1530.76 uni=1458.73
+Step 2780 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1547.7 qt=1569.05 e2=1531.12 uni=1528.81
+Step 2800 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1540.52 qt=1501.74 e2=1487.54 uni=1381.18
+Step 2820 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1524.69 qt=1549.17 e2=1516.4 uni=1643.03
+Step 2840 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1530.02 qt=1601.2 e2=1525.4 uni=1220.3
+Step 2860 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1553.88 qt=1554.88 e2=1556.37 uni=1553.97
+Step 2880 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1561.67 qt=1601.64 e2=1540.16 uni=1638.59
+Step 2900 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1563.98 qt=1501.22 e2=1635.98 uni=1563.1
+Step 2920 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1564.88 qt=1608.18 e2=1542.51 uni=1621.99
+Step 2940 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1581.98 qt=1595.55 e2=1592.63 uni=1510.73
+Step 2960 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1592.12 qt=1494.54 e2=1625.06 uni=1640.29
+Step 2980 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1592.63 qt=1452.25 e2=1608.4 uni=1721.12
+Step 3000 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1594.3 qt=1626.9 e2=1607.96 uni=1606.88
+Step 3020 |Awin|=922 |Bwin|=578 T=100
+  chamfer=1580.8 qt=1580.21 e2=1542.32 uni=1599.62
+Step 3040 |Awin|=923 |Bwin|=577 T=100
+  chamfer=1592.2 qt=1643.21 e2=1617.28 uni=1893.51
+schedule_done nA=1880 ai=1880 nB=1178 bi=1178 max_A_run=2 prefix=ABAABABAABABAABAABABAABA
+
+========== TIMING SUMMARY (ms) dual-dynamic ==========
+wall_ms_total=1054.020 queries=78 update_ops=3058
+per_update_ms e2lsh=0.073 quadtree=0.125 uniform=0.057 benchmark=0.058
+QuadTree update_ms_avg=0.061 query_ms_avg=2.509
+E2LSH update_ms_avg=0.013 query_ms_avg=2.327
+exact update_ms_avg=0.058
+=====================================================
+Wrote timing summary to D:\Develop\native-l2-e2lsh-chamfer\output\paper_both\textemb\no_seed3\timing_summary.json
+Done. queries=78 wrote D:\Develop\native-l2-e2lsh-chamfer\output\paper_both\textemb\no_seed3\compare_cost_log.csv

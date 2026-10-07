@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.hdf5 binary
+*.f32bin binary
+*.fvecs binary
+*.exe binary
+*.dll binary
+*.lib binary
+*.a binary
